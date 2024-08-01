@@ -17,4 +17,4 @@ crontab "$tmp_crontab"
 
 rm "$tmp_crontab"
 
-echo "Crontab entries created successfully."
+crontab -l
