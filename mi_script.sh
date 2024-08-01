@@ -16,5 +16,3 @@ echo "0 18 * * 0 /home/linux/rad/mi_script.sh" >> "$tmp_crontab"
 crontab "$tmp_crontab"
 
 rm "$tmp_crontab"
-
-crontab -l
